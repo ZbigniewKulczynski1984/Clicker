@@ -1,12 +1,14 @@
 import React from 'react';
+import Display from './components/Display/Display';
+import Manipulator from './components/Manipulator/Manipulator';
+
 
 
 function App() {
   return (
     <div className="App">
-      <p>0</p>
-      <button>+</button>
-      <button>-</button>
+      <Display />
+      <Manipulator />
     </div>
   );
 }

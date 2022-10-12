@@ -5,7 +5,8 @@ const Manipulator = () => {
     <>
     <button>-</button>
     <button>+</button>
-  )
-}
+    </>
+  );
+};
 
-export default Manipulator
+export default Manipulator;
