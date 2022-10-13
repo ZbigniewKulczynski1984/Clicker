@@ -1,16 +1,18 @@
-import React from "react";
+import {useState} from "react";
 import Display from "./components/Display/Display";
 import Manipulator from "./components/Manipulator/Manipulator";
 function App() {
-  // props === properties
-  // propsy działają tylko w dół
+  const [count, setCount] = useState<number>(0)
+
+  
+
+
   const propToPassDown = 5;
   
   return (
     <div className="App">
-      <Display propsToPassDown= {propToPassDown} />
-      
-      <Manipulator />
+      <Display count={count} />
+      <Manipulator setCount={setCount}/>
     </div>
   );
 }

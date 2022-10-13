@@ -1,3 +1,9 @@
-export type DisplayProps = {
-    propsToPassDown: number;
+// import Manipulator from "../components/Manipulator/Manipulator";
+
+export interface DisplayProps  {
+    count: number;
+}
+
+export interface ManipulatorProps  {
+    setCount: (value: number | ((prevState: number) => number)) => void 
 }
