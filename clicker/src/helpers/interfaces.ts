@@ -5,5 +5,5 @@ export interface DisplayProps  {
 }
 
 export interface ManipulatorProps  {
-    setCount: (value: number | ((prevState: number) => number)) => void 
+    setCount: (value: number | ((prevState: number) => number)) => void;
 }
