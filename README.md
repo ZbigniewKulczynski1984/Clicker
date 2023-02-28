@@ -1,8 +1,8 @@
 # React_12-10-22
 
-##React aplication clicker
+## React aplication clicker
 
-##Build with
+## Build with
 - HTML
 - CSS
 - TS
