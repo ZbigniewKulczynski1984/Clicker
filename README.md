@@ -1,4 +1,4 @@
-# React_12-10-22
+# React
 
 ## React aplication clicker
 
